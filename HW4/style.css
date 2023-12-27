@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.task1 {
+    margin: 50px auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.task1-item {
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    width: 400px;
+    position: relative;
+}
+
+.task1-item__name {
+    font-weight: bold;
+    color: blue;
+}
+
+.task1-item__remove {
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
